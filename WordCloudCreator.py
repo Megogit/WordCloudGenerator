@@ -26,7 +26,7 @@ wordcloud = WordCloud(width=1584, height=396,
                       stopwords=stopwords,
                       min_font_size=20, max_font_size=150).generate(comment_words)
 
-# plot the WordCloud image
+# plot thedsad WordCloud image
 plt.figure(figsize=(8, 8), facecolor=None)
 plt.imshow(wordcloud)
 plt.axis("off")
